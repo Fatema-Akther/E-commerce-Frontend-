@@ -8,11 +8,7 @@ import RelatedProducts from '@/app/components/RelatedProducts';
 import { allProducts } from '@/app/data/products';
 import SingleProductDetails from '@/app/components/SingleProductDetails';
 
-type PageProps = {
-  params: { id: string };
-};
-
-const ProductPage = ({ params }: PageProps) => {
+export default function ProductPage({ params }: { params: { id: string } }) {
   const id = parseInt(params.id);
   const product = allProducts.find((p) => p.id === id);
 
@@ -46,6 +42,4 @@ const ProductPage = ({ params }: PageProps) => {
       <Footer />
     </div>
   );
-};
-
-export default ProductPage;
+}
