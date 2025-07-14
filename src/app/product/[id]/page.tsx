@@ -8,11 +8,7 @@ import RelatedProducts from '@/app/components/RelatedProducts';
 import { allProducts } from '@/app/data/products';
 import SingleProductDetails from '@/app/components/SingleProductDetails';
 
-type Props = {
-  params: { id: string };
-};
-
-const ProductPage = ({ params }: Props) => {
+const ProductPage = ({ params }: { params: { id: string } }) => {
   const id = parseInt(params.id);
   const product = allProducts.find((p) => p.id === id);
 
