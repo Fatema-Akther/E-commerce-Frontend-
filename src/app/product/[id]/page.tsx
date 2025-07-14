@@ -12,7 +12,7 @@ type PageProps = {
   params: { id: string };
 };
 
-export default function ProductPage({ params }: PageProps) {
+const ProductPage = ({ params }: PageProps) => {
   const id = parseInt(params.id);
   const product = allProducts.find((p) => p.id === id);
 
@@ -46,4 +46,6 @@ export default function ProductPage({ params }: PageProps) {
       <Footer />
     </div>
   );
-}
+};
+
+export default ProductPage;
