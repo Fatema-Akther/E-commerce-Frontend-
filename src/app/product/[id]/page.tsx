@@ -12,20 +12,11 @@ type Props = {
   params: { id: string };
 };
 
-const ProductPage = async ({ params }: Props) => {
+const ProductPage = ({ params }: Props) => {
   const id = parseInt(params.id);
-  const product = allProducts.find(p => p.id === id);
+  const product = allProducts.find((p) => p.id === id);
 
   if (!product) return notFound();
-
-  function handleAddToCart(p: any): void {
-    throw new Error('Function not implemented.');
-  }
-
-
-
- 
-
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
@@ -43,18 +34,13 @@ const ProductPage = async ({ params }: Props) => {
         </div>
 
         <SingleProductDetails product={product} />
-
       </main>
 
-      {/* ✅ Related Products (Client Component) */}
       <RelatedProducts
         allProducts={allProducts}
         currentId={product.id}
         currentCategory={product.category}
-
-        
       />
-      
 
       <InfoFeatures />
       <Footer />
