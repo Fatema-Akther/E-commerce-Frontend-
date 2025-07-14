@@ -23,9 +23,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html>
+      <body className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning data-qb-installed="true" cz-shortcut-listen="true">
         {children}
+
       </body>
     </html>
   );
