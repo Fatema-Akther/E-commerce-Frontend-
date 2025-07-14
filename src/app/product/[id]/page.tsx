@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 
-
 import Header from '@/app/components/Header';
 import InfoFeatures from '@/app/components/InfoFeatures';
 import Footer from '@/app/components/Footer';
@@ -9,12 +8,8 @@ import RelatedProducts from '@/app/components/RelatedProducts';
 import { allProducts } from '@/app/data/products';
 import SingleProductDetails from '@/app/components/SingleProductDetails';
 
-// ✅ Remove Props type entirely and define it inline
-export default function ProductPage({
-  params,
-}: {
-  params: { id: string };
-}) {
+// ✅ No need for separate Props type
+export default function ProductPage({ params }: { params: { id: string } }) {
   const id = parseInt(params.id);
   const product = allProducts.find((p) => p.id === id);
 
