@@ -24,10 +24,10 @@ const CategoryPage = () => {
 
   const allCategories = [
     'Women Clothing',
-    'Sharee',
+    'Sarees',
     'Jamdani Sharee',
-    'Muslin Saree',
-    'Dress',
+    'salwar',
+    'kurta',
     'Three Prics',
     'unstitched party dress',
     'Premium cotton',
