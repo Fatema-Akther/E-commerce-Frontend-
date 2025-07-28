@@ -22,6 +22,23 @@ A modern, responsive, and user-friendly e-commerce web application built with **
 
 ## 📂 Folder Structure
 
+### 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+npm install
+npm run dev
+
+
+```
+
+### 🌐 Live Demo
+
+You can check out the live version of this project here:  
+[🌐 Live Demo](https://e-commerce-frontend-murex-mu.vercel.app/)
+
+
 src/
 ├── app/ # Pages & routes (Next.js App Router)
 ├── components/ # Reusable UI components
