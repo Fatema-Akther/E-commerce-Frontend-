@@ -74,3 +74,14 @@ select:-webkit-autofill {
   -webkit-text-fill-color: black !important;
   transition: background-color 9999s ease-in-out 0s;
 }
+
+
+/* hide-scrollbar.css */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}

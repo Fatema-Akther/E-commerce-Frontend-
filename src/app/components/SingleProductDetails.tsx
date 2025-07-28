@@ -71,7 +71,7 @@ const SingleProductDetails = ({
   return (
     <div className="flex flex-col md:flex-row gap-16">
       {/* ✅ Image Section */}
-    <div className="flex flex-col md:flex-row w-full md:w-1/2 gap-4">
+    <div className="flex flex-col md:flex-row w-full md:w-1/2 gap-4 md:h-[600px]">
   {/* ✅ Main Image — comes first on mobile, stays left on desktop */}
   <div className="relative w-full md:w-[500px] lg:w-[600px] aspect-[3/4] rounded-lg overflow-hidden md:order-1 order-1">
     <Image
@@ -101,7 +101,7 @@ const SingleProductDetails = ({
 </div>
 
       {/* ✅ Product Info Section */}
-      <div className="w-full md:w-1/2">
+      <div className="w-full md:w-1/2  md:h-[600px] overflow-y-auto pr-2 hide-scrollbar ">
         <h1 className="text-3xl font-bold text-black mb-4">{product.title}</h1>
         <p className="text-rose-600 text-2xl font-bold mb-1">{product.price}</p>
         <p className="line-through text-gray-500 mb-3">{product.oldPrice}</p>
