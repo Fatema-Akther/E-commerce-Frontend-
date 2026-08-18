@@ -129,7 +129,7 @@ const SingleProductDetails = ({
           onClick={handleAddToCart}
           className="w-full bg-rose-600 text-white py-2 rounded mb-4"
         >
-          অর্ডার করুন
+        Add to cart
         </button>
 
         {/* Features */}
