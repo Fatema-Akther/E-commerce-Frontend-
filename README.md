@@ -1,46 +1,195 @@
-# 🛍️ E-commerce Frontend
+````markdown
+<p align="center">
+  <img src="./public/banner.png" alt="E-Commerce UI Banner" width="100%">
+</p>
 
-A modern, responsive, and user-friendly e-commerce web application built with **Next.js 14 (React)**, **TypeScript**, and **Tailwind CSS**.
+# Peachmode — E-Commerce UI
 
-## 🚀 Features
+A modern and responsive eCommerce frontend built with Next.js, React, TypeScript, and Tailwind CSS, focused on clean UI, responsive design, product browsing, and a smooth shopping experience.
 
-- ✅ Product listing with image carousel
-- ✅ Product detail page
-- ✅ Responsive design (mobile-friendly)
-- ✅ Optimized with Next.js Image component
-- ✅ Clean UI with Tailwind CSS
-- ✅ React Icons integration
+---
 
-## 🛠️ Tech Stack
+## Project Overview
 
-| Tech             | Description                             |
-|------------------|-----------------------------------------|
-| **Next.js**      | React framework for production          |
-| **TypeScript**   | Type-safe JavaScript                   |
-| **Tailwind CSS** | Utility-first CSS framework             |
-| **React Icons**  | Icon pack for React applications        |
+Peachmode is a frontend-focused eCommerce website designed to provide a modern and engaging online fashion shopping experience.
 
-## 📂 Folder Structure
+The project focuses on:
 
-### 🚀 Getting Started
+- Modern eCommerce UI patterns
+- Responsive layouts
+- Product browsing experience
+- Category-based navigation
+- Promotional sections
+- Clean and reusable frontend components
+- Mobile-friendly shopping experience
 
-To run this project locally:
+This project is primarily built to showcase frontend development, UI implementation, and responsive web design skills.
+
+> **Note:** This project does not include a custom backend or production database. It uses demo/static product data for the frontend experience.
+
+---
+
+## Live Demo
+
+🌐 **Live Website:**  
+https://e-commerce-frontend-murex-mu.vercel.app
+
+---
+
+## Features
+
+- Responsive eCommerce interface
+- Modern fashion-focused UI
+- Product browsing
+- Product categories
+- Product details
+- Product search
+- Product filtering
+- Shopping cart interface
+- Promotional banners
+- Category navigation
+- Responsive header and navigation
+- Mobile-friendly layouts
+- Modern product cards
+- Smooth shopping experience
+
+> Features listed above reflect the current frontend implementation.
+
+---
+
+## Tech Stack
+
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **React Icons**
+- **rc-slider**
+- **Sonner**
+
+---
+
+## Screenshots
+
+### Homepage
+
+![Homepage Screenshot](./public/screenshots/homepage.png)
+
+### Product Listing
+
+![Product Listing Screenshot](./public/screenshots/product-listing.png)
+
+### Product Details
+
+![Product Details Screenshot](./public/screenshots/product-details.png)
+
+### Shopping Cart
+
+![Shopping Cart Screenshot](./public/screenshots/shopping-cart.png)
+
+### Responsive Design
+
+The interface is designed to provide a consistent shopping experience across desktop, tablet, and mobile devices.
+
+![Responsive Design](./public/screenshots/responsive.png)
+
+---
+
+## Project Structure
+
+```text
+src
+│
+├── app
+│   ├── all-products
+│   ├── category
+│   ├── group
+│   ├── product
+│   ├── search
+│   ├── checkout
+│   ├── Offer
+│   └── thankyou
+│
+├── components
+├── data
+├── utils
+└── ...
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd YOUR_REPOSITORY
+```
+
+Install the dependencies:
 
 ```bash
 npm install
-npm run dev
-
-
 ```
 
-### 🌐 Live Demo
+### Run the Development Server
 
-You can check out the live version of this project here:  
-[🌐 Live Demo](https://e-commerce-frontend-murex-mu.vercel.app/)
+Start the development server:
 
+```bash
+npm run dev
+```
 
-src/
-├── app/ # Pages & routes (Next.js App Router)
-├── components/ # Reusable UI components
-├── styles/ # Tailwind and global styles
-public/ # Static assets (images, etc.)
+Then open your browser and visit:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## Demo Data
+
+This project uses static/demo product data to showcase the frontend shopping experience.
+
+No custom backend or production database is included in this repository.
+
+The product information, images, promotional content, and other data are used for demonstration and frontend development purposes.
+
+---
+
+## Purpose
+
+This project was created to demonstrate:
+
+- Frontend development with Next.js
+- Responsive UI implementation
+- Modern eCommerce interface design
+- Component-based React development
+- TypeScript usage
+- Tailwind CSS styling
+- Product browsing experience
+- Responsive layouts
+- User-focused eCommerce UI design
+
+---
+
+## License
+
+This project is created for portfolio and educational purposes.
+````

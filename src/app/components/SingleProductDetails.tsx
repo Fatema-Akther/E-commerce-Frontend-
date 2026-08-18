@@ -127,7 +127,7 @@ const SingleProductDetails = ({
         {/* Add to Cart */}
         <button
           onClick={handleAddToCart}
-          className="w-full bg-pink-600 text-white py-2 rounded mb-4"
+          className="w-full bg-rose-600 text-white py-2 rounded mb-4"
         >
           অর্ডার করুন
         </button>
