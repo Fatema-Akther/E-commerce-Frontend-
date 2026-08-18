@@ -1,4 +1,3 @@
-````markdown
 <p align="center">
   <img src="./public/banner.png" alt="E-Commerce UI Banner" width="100%">
 </p>
@@ -98,7 +97,6 @@ The interface is designed to provide a consistent shopping experience across des
 ## Project Structure
 
 ```text
-```text
 src
 │
 └── app
@@ -115,8 +113,6 @@ src
     ├── globals.css
     ├── layout.tsx
     └── page.tsx
-```
-
 ```
 
 ---
