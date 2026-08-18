@@ -98,22 +98,25 @@ The interface is designed to provide a consistent shopping experience across des
 ## Project Structure
 
 ```text
+```text
 src
 │
-├── app
-│   ├── all-products
-│   ├── category
-│   ├── group
-│   ├── product
-│   ├── search
-│   ├── checkout
-│   ├── Offer
-│   └── thankyou
-│
-├── components
-├── data
-├── utils
-└── ...
+└── app
+    ├── brand
+    │   └── [brand]
+    ├── category
+    │   └── [category]
+    ├── checkout
+    ├── components
+    ├── data
+    ├── product
+    │   └── [id]
+    ├── thankyou
+    ├── globals.css
+    ├── layout.tsx
+    └── page.tsx
+```
+
 ```
 
 ---
@@ -132,13 +135,13 @@ Make sure you have the following installed:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/Fatema-Akther/nextjs-ecommerce-ui.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd YOUR_REPOSITORY
+cd nextjs-ecommerce-ui
 ```
 
 Install the dependencies:
