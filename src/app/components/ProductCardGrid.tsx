@@ -94,13 +94,43 @@ const ProductCardGrid = ({
       {/* Heading */}
       <div className="w-full px-4">
         <div className="max-w-screen-2xl mx-auto">
-<h2 className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black text-center mb-2 sm:mb-6">
+
+
+           <h2
+  className="
+  text-center
+  text-4xl
+  text-black
+  font-bold
+  mb-10
+  tracking-wide
+  "
+>
+  AL{" "}
+  <span className="text-[#A73153]">COLL</span>
+  <span className="text-[#EC1857] relative">
+    CTION
+    <span
+      className="
+      absolute
+      left-1/2
+      -translate-x-1/2
+      bottom-[-8px]
+      w-1/3
+      h-[3px]
+      bg-[#EC1857]
+      rounded-full
+      "
+    ></span>
+  </span>
+</h2>
+{/* <h2 className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black text-center mb-2 sm:mb-6">
 
             {Array.isArray(selectedCategory)
               ? selectedCategory.join(', ').toUpperCase()
               : selectedCategory?.toUpperCase() || 'ALL'}{' '}
             COLLECTION
-          </h2>
+          </h2> */}
         </div>
       </div>
 

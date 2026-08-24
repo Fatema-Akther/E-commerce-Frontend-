@@ -3,12 +3,13 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import ProductCardGrid from "./components/ProductCardGrid";
+
 import NewsletterSection from "./components/NewsletterSection";
 import InfoFeatures from "./components/InfoFeatures";
 import Fasionarrival from "./components/Fasionarrival";
-import Productgrid from "./components/productgrid";
+
 import ProductGridWithDrawer from "./components/ProductGridWithDrawer";
+import CategoryCollection from "./components/CategoryCollection";
 
 export default function HomePage() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -121,7 +122,9 @@ export default function HomePage() {
 </div>
 
       {/* Other Sections */}
-     <ProductGridWithDrawer />
+     {/* <ProductGridWithDrawer /> */}
+
+     <CategoryCollection/>
 
       <Fasionarrival />
           <section className="py-6 bg-white -mt-12">

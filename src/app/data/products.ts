@@ -80,7 +80,7 @@ LongDescription:['New & Fashionable Collection',
   {
     id: 2,
     brand: 'Aarong',
-    category: 'salwar',
+    category: 'Sarees',
     image: ['/images/product38.jpg',
      '/images/product39.jpg',
  '/images/product40.jpg'
@@ -193,7 +193,7 @@ LongDescription:['New & Fashionable Collection',
   {
     id: 4,
     brand: 'aa',
-    category: 'Sarees',
+    category: 'Co-ords',
     image: ['/images/product51.jpg',
       '/images/product52.jpg',
  '/images/product53.jpg'
@@ -248,7 +248,7 @@ LongDescription:['New & Fashionable Collection',
   {
     id: 5,
     brand: 'sss',
-    category: 'Sarees',
+    category: 'LUXE',
     image: ['/images/product55.jpg',
       '/images/product54.jpg',
  '/images/product56.jpg'
@@ -304,7 +304,7 @@ LongDescription:['New & Fashionable Collection',
   {
     id: 6,
     brand: 'sss',
-    category: 'salwar',
+    category: 'Tops & Tunics',
     image: ['/images/product15.jpg',
       '/images/product1.jpg',
  '/images/product1.jpg'
@@ -528,7 +528,7 @@ LongDescription:['New & Fashionable Collection',
   {
     id: 10,
     brand: 'sss',
-    category: 'kurta',
+    category: 'Party Wear',
     image: ['/images/product27.jpg',
      '/images/product1.jpg',
  '/images/product1.jpg'
@@ -587,6 +587,7 @@ features: [
     id: 11,
     brand: 'sss',
     category: 'kurta',
+
     image: ['/images/product28.jpg',
       '/images/product1.jpg',
  '/images/product1.jpg'
@@ -642,7 +643,7 @@ features: [
   {
     id: 12,
     brand: 'sss',
-    category: 'kurta',
+    category: 'Footwear',
     image: ['/images/product16.jpg',
       '/images/product1.jpg',
  '/images/product1.jpg'
@@ -755,7 +756,7 @@ features: [
    {
     id: 14,
     brand: 'sss',
-    category: 'salwar',
+    category: 'Tops & Tunics',
     image: ['/images/product16.jpg',
       '/images/product1.jpg',
  '/images/product1.jpg'
@@ -1211,7 +1212,7 @@ LongDescription:['New & Fashionable Collection',
   {
     id: 22,
     brand: 'Aarong',
-    category: 'Sarees',
+    category: 'Co-ords',
     image: ['/images/product12.jpg',
      '/images/product1.jpg',
  '/images/product2.jpg'
@@ -1385,7 +1386,7 @@ LongDescription:['New & Fashionable Collection',
   {
     id: 25,
     brand: 'sss',
-    category: 'Sarees',
+    category: 'Co-ords',
     image: ['/images/product17.jpg',
       '/images/product1.jpg',
  '/images/product1.jpg'
@@ -1442,7 +1443,7 @@ LongDescription:['New & Fashionable Collection',
   {
     id: 26,
     brand: 'sss',
-    category: 'Sarees',
+    category: 'Woolen',
     image: ['/images/product22.jpg',
       '/images/product1.jpg',
  '/images/product1.jpg'
@@ -1499,7 +1500,7 @@ LongDescription:['New & Fashionable Collection',
   {
     id: 27,
     brand: 'sss',
-    category: 'Sarees',
+    category: 'Co-ords',
     image: ['/images/product2.jpg',
       '/images/product1.jpg',
  '/images/product1.jpg'

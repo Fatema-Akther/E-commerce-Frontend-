@@ -48,7 +48,36 @@ const FashionArrivals = () => {
   return (
     <section className="py-6 bg-white -mt-10">
       <div className="max-w-7xl mx-auto text-center px-4">
-        <h2 className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black  mb-2 sm:mb-6">Fashion Frenzy Arrivals</h2>
+
+         <h2
+  className="
+  text-center
+  text-4xl
+  text-black
+  font-bold
+  mb-10
+  tracking-wide
+  "
+>
+  Fashion{" "}
+  <span className="text-[#A73153]">Frenzy</span>
+  <span className="text-[#EC1857] relative">
+   Arrivals
+    <span
+      className="
+      absolute
+      left-1/2
+      -translate-x-1/2
+      bottom-[-8px]
+      w-1/3
+      h-[3px]
+      bg-[#EC1857]
+      rounded-full
+      "
+    ></span>
+  </span>
+</h2>
+        {/* <h2 className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black  mb-2 sm:mb-6">Fashion Frenzy Arrivals</h2> */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3  gap-3  sm:gap-6">
           {featuredProducts.map((product) => (
             <Link
