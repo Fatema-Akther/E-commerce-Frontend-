@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/banner.png" alt="E-Commerce UI Banner" width="100%">
+  <img src="./public/banner2.png" alt="E-Commerce UI Banner" width="100%">
 </p>
 
 # Peachmode — E-Commerce UI
