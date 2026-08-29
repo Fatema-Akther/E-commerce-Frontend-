@@ -2,7 +2,7 @@
   <img src="./public/banner2.png" alt="E-Commerce UI Banner" width="100%">
 </p>
 
-# Peachmode — E-Commerce UI
+# Zivana — E-Commerce UI
 
 A modern and responsive eCommerce frontend built with Next.js, React, TypeScript, and Tailwind CSS, focused on clean UI, responsive design, product browsing, and a smooth shopping experience.
 
@@ -10,7 +10,7 @@ A modern and responsive eCommerce frontend built with Next.js, React, TypeScript
 
 ## Project Overview
 
-Peachmode is a frontend-focused eCommerce website designed to provide a modern and engaging online fashion shopping experience.
+Zivana is a frontend-focused eCommerce website designed to provide a modern and engaging online fashion shopping experience.
 
 The project focuses on:
 
