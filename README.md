@@ -72,7 +72,7 @@ https://e-commerce-frontend-murex-mu.vercel.app
 
 ### Homepage
 
-![Homepage Screenshot](./public/screenshots/homepage1.png)
+![Homepage Screenshot](./public/screenshots/homepage2.png)
 
 ### Product Listing
 
@@ -80,7 +80,7 @@ https://e-commerce-frontend-murex-mu.vercel.app
 
 ### Product Details
 
-![Product Details Screenshot](./public/screenshots/product-details.png)
+![Product Details Screenshot](./public/screenshots/product-details1.png)
 
 ### Shopping Cart
 
@@ -90,7 +90,7 @@ https://e-commerce-frontend-murex-mu.vercel.app
 
 The interface is designed to provide a consistent shopping experience across desktop, tablet, and mobile devices.
 
-![Responsive Design](./public/screenshots/responsive1.png)
+![Responsive Design](./public/screenshots/responsive2.png)
 
 ---
 
