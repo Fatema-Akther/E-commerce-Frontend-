@@ -76,11 +76,11 @@ https://e-commerce-frontend-murex-mu.vercel.app
 
 ### Product Listing
 
-![Product Listing Screenshot](./public/screenshots/product-listing.png)
+![Product Listing Screenshot](./public/screenshots/product-listing1.png)
 
 ### Product Details
 
-![Product Details Screenshot](./public/screenshots/product-details1.png)
+![Product Details Screenshot](./public/screenshots/product-details.png)
 
 ### Shopping Cart
 
