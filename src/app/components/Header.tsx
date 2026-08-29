@@ -90,7 +90,7 @@ const Header = () => {
           </div>
           <Link href="/">
             <img
-              src="/images/peachmode-logo2.png"
+             src="/images/Logo.png"
               alt="Peachmode"
               className="h-6"
             />
@@ -111,7 +111,7 @@ const Header = () => {
             {/* Logo */}
             <Link href="/">
               <img
-                src="/images/peachmode-logo2.png"
+                src="/images/Logo.png"
                 alt="Peachmode Logo"
                 className="h-10 w-auto"
               />
